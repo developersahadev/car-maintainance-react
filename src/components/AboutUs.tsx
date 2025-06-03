@@ -4,35 +4,49 @@ const AboutUs: React.FC = () => {
   return (
     <div id="about" className="h-screen bg-gray-50 py-20 px-6 scroll-mt-20 overflow-y-auto">
       <h1 className="text-4xl font-bold text-gray-800 mb-6 text-center">
-        About Azure Car Service Center
+        About Azure Car Service Center <br/><br/>🟥 مركز خدمة أزور للسيارات الفاخرة
       </h1>
+<p className="text-4xl text-gray-800 mb-6 text-center"> At Azure Car Service Center, we take immense pride in being recognized as one of the most trusted names in luxury car maintenance in Saudi Arabia.<br/> Specializing in Bentley and Rolls-Royce, our expert technicians and state-of-the-art service facility are dedicated to delivering precision, elegance, and performance with every service.<br/><br/>
 
-      <p className="text-lg text-gray-700 mb-4">
-        Welcome to <span className="font-semibold text-blue-600">Azure Car Service Center</span> — your one-stop destination for quality, reliability, and innovation.
-      </p>
+في مركز أزور لخدمة السيارات، نفخر بكوننا من الأسماء الرائدة في صيانة السيارات الفاخرة في المملكة العربية السعودية. نحن متخصصون في بنتلي و رولز رويس، ويعمل فريقنا من الفنيين المحترفين داخل مركز مجهز بأحدث التقنيات لتقديم أعلى درجات الدقة والأناقة والأداء.
+<br/>
+<br/>
 
-      <p className="text-lg text-gray-700 mb-4">
-        🟥 مركز خدمة أزور للسيارات الفاخرة
+✅ Why Choose Azure?
+<br/><br/>
+✅ لماذا تختار مركز أزور؟
+<br/><br/>
+Certified professionals in Bentley & Rolls-Royce service
+<br/><br/>
 
-        At Azure Car Service Center, we take immense pride in being recognized as one of the most trusted names in luxury car maintenance in Saudi Arabia. Specializing in Bentley and Rolls-Royce, our expert technicians and state-of-the-art service facility are dedicated to delivering precision, elegance, and performance with every service.
+فنيون معتمدون في صيانة بنتلي ورولز رويس
+<br/><br/>
 
-        في مركز أزور لخدمة السيارات، نفخر بكوننا من الأسماء الرائدة في صيانة السيارات الفاخرة في المملكة العربية السعودية...
-      </p>
+Advanced diagnostics & repair systems
+<br/><br/>
+أحدث أجهزة الفحص والإصلاح
+<br/><br/>
 
-      <p className="text-lg text-gray-700 mb-4">
-        ✅ Why Choose Azure? — ✅ لماذا تختار مركز أزور؟
+Genuine OEM parts only
+<br/><br/>
+استخدام قطع غيار أصلية 100%
 
-        Certified professionals in Bentley & Rolls-Royce service — فنيون معتمدون  
-        Advanced diagnostics & repair systems — أحدث أجهزة الفحص
-        Genuine OEM parts only — قطع غيار أصلية
-      </p>
+<br/><br/>
+Engine, suspension, and full bodywork solutions
+<br/><br/>
+خدمات شاملة للمحرك والتعليق وهيكل السيارة
 
-      <p className="text-lg text-gray-700">
-        <span className="font-semibold text-blue-600">
-          VIP pick-up & drop service — خدمة استلام وتسليم السيارة لكبار العملاء
-        </span>
-        🚗 We don’t just service supercars – we maintain prestige.
-      </p>
+<br/><br/>
+VIP pick-up & drop service
+<br/><br/>
+خدمة استلام وتسليم السيارة لكبار العملاء
+
+<br/><br/>
+
+
+🚗 We don’t just service supercars – we maintain prestige.<br/><br/>
+
+🚗 نحن لا نقوم فقط بصيانة السيارات الفاخرة – بل نحافظ على هيبتها ورونقها.</p>
     </div>
   );
 };
