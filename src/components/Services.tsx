@@ -23,7 +23,7 @@ const ServiceCard = ({ title, description, icon, delay }: ServiceCardProps) => {
       </div>
       <h3 className="text-2xl font-semibold mb-4">{title}</h3>
       <p className="text-gray-600 mb-6">{description}</p>
-      <a href="learn-more.html" className="text-primary font-medium flex items-center group">
+      <a href="learn-more." className="text-primary font-medium flex items-center group">
         Learn more
         <ArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-1" size={18} />
       </a>
