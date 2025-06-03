@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-poppins;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply relative text-gray-600 hover:text-gray-800 transition;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute w-0 h-0.5 bg-primary bottom-[-4px] left-0 transition-all duration-300;
+  }
+
+  .nav-link:hover::after,
+  .nav-link.active::after {
+    @apply w-full;
+  }
+
+  .car-card {
+    @apply transition duration-300 ease-in-out;
+  }
+
+  .car-card:hover {
+    @apply transform -translate-y-1 shadow-lg;
+  }
+
+  .service-card {
+    @apply transition duration-300 ease-in-out;
+  }
+
+  .service-card:hover {
+    @apply transform scale-[1.02];
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-2 rounded-button whitespace-nowrap hover:bg-opacity-90 transition;
+  }
+
+  .btn-outline {
+    @apply bg-transparent border border-white text-white px-8 py-3 rounded-button whitespace-nowrap hover:bg-white hover:text-black transition duration-300 text-lg font-medium flex items-center justify-center;
+  }
+
+  .hero-content {
+    background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0) 100%);
+  }
+
+  .contact-icon {
+    @apply w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mr-4 flex-shrink-0;
+  }
+
+  .social-icon {
+    @apply w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition;
+  }
+}
