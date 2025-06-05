@@ -87,21 +87,21 @@ const Contact = () => {
             
             <div className="space-y-6">
               <ContactInfo icon={<MapPin className="text-primary\" size={24} />} title="Location">
-                <p className="text-gray-600">123 Luxury Lane, Beverly Hills, CA 90210</p>
+                <p className="text-gray-600">Exit 18, Al Kharj Road, An Noor, Riyadh 14321, Saudi Arabia</p>
               </ContactInfo>
               
               <ContactInfo icon={<Phone className="text-primary\" size={24} />} title="Phone">
-                <p className="text-gray-600">+1 (800) 123-4567</p>
+                <p className="text-gray-600">+966 50 818 1801</p>
               </ContactInfo>
               
               <ContactInfo icon={<MessageSquare className="text-primary\" size={24} />} title="WhatsApp">
-                <a href="https://wa.me/18001234567" className="text-gray-600 hover:text-primary transition">
-                  +1 (800) 123-4567
+                <a href="https://wa.me/508181801" className="text-gray-600 hover:text-primary transition">
+                  +966 50 818 1801
                 </a>
               </ContactInfo>
               
               <ContactInfo icon={<Instagram className="text-primary\" size={24} />} title="Instagram">
-                <a href="https://www.instagram.com/azurecarservices" className="text-gray-600 hover:text-primary transition">
+                <a href="https://www.instagram.com/azure_services.sa?igsh=MTJ0dGNmazh1ZXIyZg%3D%3D&utm_source=qr">
                   @azurecarservices
                 </a>
               </ContactInfo>
